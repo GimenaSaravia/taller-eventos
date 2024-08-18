@@ -7,8 +7,7 @@
 </head>
 <body>
     <div style="padding: 5px; background-color: green;">
-        <p>HOLA!</p>
-        <button id="boton" onclick="alert('Hola!')">Saludar</button>
+        <button id="boton" onclick="stopPropagation(), alert('Hola!')">Saludar</button>
     </div>
     
 <script src="eventos.js"></script>
